@@ -74,6 +74,10 @@ git clone --depth=1 https://github.com/tindy2013/openwrt-subconverter
 # Add gotop
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/gotop
 
+
+git clone --depth=1 https://github.com/Hyy2001X/luci-app-autoupdate
+git clone --depth=1 https://github.com/doushang/luci-app-shortcutmenu
+
 # Add smartdns
 svn co https://github.com/pymumu/smartdns/trunk/package/openwrt ../smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns ../luci-app-smartdns
